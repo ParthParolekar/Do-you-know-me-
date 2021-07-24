@@ -29,7 +29,7 @@ const question3 = {q:"What is my favourite Sitcom?\n1.)F.R.I.E.N.D.S\n2.)The Off
 
 const question4 = {q:"What is my favourite Sport?\n1.)Cricket\n2.)Football\n3.)Tennis\n0.)SKIP\n", a:"2"}
 
-const question5 = {q:"Where do I live?\n1.)Nashik\n2.)Mumbai\n3.)Pune\n0.)SKIP\n", a:"1"}
+const question5 = {q:"When is my birthday?\n1.)10th September\n2.)10th October\n3.)10th November\n0.)SKIP\n", a:"1"}
 
 const allQuestions = [question1, question2, question3, question4, question5] 
 
