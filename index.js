@@ -59,6 +59,30 @@ function askQuestions(questions){
       console.log('\n\n')
     }
   }
+
+  finalResult(score);
+}
+
+//Tell the user their final score and related information 
+function finalResult(score){
+  if(score<=2){
+    console.log(chalk.bgRed(" Your final score is: " + score + " "))
+    console.log("I think you don't know me")
+    console.log("Let's get to know each other then\nPing me on\n")
+    console.log(chalk.bgCyan(" Twitter: @ParolekarParth \n Instagram: @parth.parolekar \n LinkedIn: Parth Parolekar "))
+  }
+  else if(score<=8){
+    console.log(chalk.bgYellow(" Your final score is: " + score + " "))
+    console.log("You know quite a few things about me")
+    console.log("Let's get to know each other more\nPing me on\n")
+    console.log(chalk.bgCyan(" Twitter: @ParolekarParth \n Instagram: @parth.parolekar \n LinkedIn: Parth Parolekar "))
+  }
+  else if(score<=10){
+    console.log(chalk.bgGreen(" Your final score is: " + score + " "))
+    console.log("Hello best friend\n")
+    console.log("Ping me on")
+    console.log(chalk.bgCyan(" Twitter: @ParolekarParth \n Instagram: @parth.parolekar \n LinkedIn: Parth Parolekar "))
+  }
 }
 
 greeting()
